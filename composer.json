@@ -1,0 +1,22 @@
+{
+    "name": "phpmodules/guzzle",
+    "description": "a provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "twn39",
+            "email": "twn39@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PHPModules\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

@@ -1,7 +1,6 @@
 <?php
 
-namespace Component\Guzzle;
-
+namespace PHPModules\Guzzle;
 
 use GuzzleHttp\Client;
 
