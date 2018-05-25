@@ -1,7 +1,7 @@
 
 ### Install 
 
-composer require phpmodules/guzzle
+    composer require phpmodules/guzzle
 
 
 ### Usage
@@ -24,7 +24,7 @@ $aggregator = new ConfigAggregator([
 
     // ------------
 
-    PHPModules\Guzzle\ConfigProvider::class,
+    \PHPModules\Guzzle\ConfigProvider::class,
 
     // ------------
     
