@@ -12,11 +12,14 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "PHPModules\\": "src/"
+            "PHPModules\\Guzzle\\": "src/"
         }
     },
     "require": {
         "php": "^7.1",
         "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "pimple/pimple": "^3.2"
     }
 }
